@@ -1,0 +1,77 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#header {
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+
+body#home-body {
+  background-image: url(/assets/me2.png);
+  background-size: cover;
+}
+
+.button_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.each_box {
+  width: 27%;
+  text-align: center;
+  background-color: #e1e1d0;
+  outline: black;
+  font-size: 150%;
+}
+
+.this_box {
+  width: 45%;
+  text-align: center;
+  background-color: #e1e1d0;
+  outline: black;
+  font-size: 150%;
+}
+
+.one_box {
+  background-color: #e1e1d0;
+  font-size: 150%;
+  text-align: center;
+}
+
+#logo {
+  color: white;
+  text-transform: lowercase;
+  font-weigth: bold;
+}
+
+#logo:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#word {
+  color: black;
+  font-weigth: bold;
+}
+
+#word:hover {
+  text-decoration: none;
+}
+
+#textdec:hover {
+  text-decoration: none;
+}
+
+#textdec {
+  color: white;
+}
+
+#smaller {
+  font-size: 65%;
+}
+
+#smallish {
+  font-size: 85%;
+}
